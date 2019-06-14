@@ -1,0 +1,76 @@
+.m-top-100{
+    margin-top: 100px !important;
+}
+
+.m-top-95{
+    margin-top: 95px !important;
+}
+
+.m-top-50{
+    margin-top: 50px !important;
+}
+
+.m-top-35{
+    margin-top: 35px !important;
+}
+
+.m-bottom-35{
+    margin-bottom: 35px !important;
+}
+
+.m-bottom-50{
+    margin-bottom: 50px !important;
+}
+
+.m-bottom-95{
+    margin-bottom: 95px !important;
+}
+
+.m-bottom-100{
+    margin-bottom: 100px !important;
+}
+
+/* -------- */
+
+body{
+    overflow-x: hidden;
+}
+
+.bg-color-violet{
+    background-color: #29116d; /* For browsers that do not support gradients */
+    background: linear-gradient(90deg, #29116d, #5c4789);
+}
+
+.bg-image-we-work{
+    background: linear-gradient(90deg, rgba(41, 17, 109,0.8), rgba(92, 71, 137, 0.8)), url('../assets/image-we-work.jpg');
+    clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
+}
+
+.we-work-footer-wrapper{
+    clip-path: polygon(0 15%, 100% 0%, 100% 100%, 0 100%);
+}
+
+@media screen and (min-width: 1440px){
+    .main-section-wrapper{
+        padding-top: 50px;
+    }
+}
+
+/*I would write 576px but with the design is given 320px*/
+@media screen and (max-width: 320px){
+    body div{
+        padding: 10px;
+    }
+    .features-wrapper{
+        text-align: center !important;
+    }
+    .joomag-we-love-big-icon-pre-title{
+        display: none;
+    }
+    .joomag-we-love-small-icon-pre-title{
+        display: block !important;
+    }
+    .small-screen-d-none{
+        display: none;
+    }
+}
